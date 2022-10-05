@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lR . | egrep -c '^-'
+find . -mindepth 1 -maxdepht -type d | wc -l 
