@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -tyfe f | wc -1
